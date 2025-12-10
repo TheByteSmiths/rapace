@@ -159,6 +159,14 @@ pub mod transport {
     }
 }
 
+/// Tracing utilities for distributed tracing and observability.
+///
+/// Enable with `features = ["tracing"]`.
+#[cfg(feature = "tracing")]
+pub mod tracing {
+    pub use rapace_tracing::*;
+}
+
 /// Session layer for flow control and channel management.
 ///
 /// Most users don't need this - the generated client/server handle it.

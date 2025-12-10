@@ -23,6 +23,9 @@ rapace-transport-stream = { workspace = true, optional = true }
 rapace-transport-websocket = { workspace = true, optional = true }
 rapace-transport-shm = { workspace = true, optional = true }
 
+# Tracing (behind feature flag)
+rapace-tracing = { workspace = true, optional = true }
+
 # Session layer
 rapace-testkit = { workspace = true, optional = true }
 
@@ -47,8 +50,11 @@ stream = ["dep:rapace-transport-stream"]
 websocket = ["dep:rapace-transport-websocket"]
 shm = ["dep:rapace-transport-shm"]
 
+# Tracing feature
+tracing = ["dep:rapace-tracing"]
+
 # Include session layer (for advanced use)
 session = ["dep:rapace-testkit"]
 
 # All transports
-full = ["mem", "stream", "websocket", "shm", "session"]
+full = ["mem", "stream", "websocket", "shm", "session", "tracing"]
