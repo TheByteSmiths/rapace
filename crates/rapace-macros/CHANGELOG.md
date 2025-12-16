@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.5.0](https://github.com/bearcove/rapace/compare/rapace-macros-v0.4.0...rapace-macros-v0.5.0) - 2025-12-16
+
+### Added
+
+- *(websocket)* add generic WebSocket backend support ([#42](https://github.com/bearcove/rapace/pull/42))
+- *(registry)* add global registry and auto-registration (phases 1-2)
+
+### Fixed
+
+- fix fn with constraint ([#50](https://github.com/bearcove/rapace/pull/50))
+
+### Other
+
+- Unify transport backends into core crate ([#51](https://github.com/bearcove/rapace/pull/51))
+
 ## [0.4.0](https://github.com/bearcove/rapace/compare/rapace-macros-v0.3.0...rapace-macros-v0.4.0) - 2025-12-14
 
 ### Added

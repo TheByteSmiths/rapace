@@ -1481,7 +1481,7 @@ dependencies = [
 
 [[package]]
 name = "rapace"
-version = "0.4.0"
+version = "0.5.0"
 dependencies = [
  "facet",
  "facet-core",
@@ -1499,7 +1499,7 @@ dependencies = [
 
 [[package]]
 name = "rapace-browser-tests-client"
-version = "0.4.0"
+version = "0.5.0"
 dependencies = [
  "console_error_panic_hook",
  "futures",
@@ -1513,7 +1513,7 @@ dependencies = [
 
 [[package]]
 name = "rapace-browser-tests-proto"
-version = "0.4.0"
+version = "0.5.0"
 dependencies = [
  "facet",
  "rapace",
@@ -1521,7 +1521,7 @@ dependencies = [
 
 [[package]]
 name = "rapace-browser-tests-server"
-version = "0.4.0"
+version = "0.5.0"
 dependencies = [
  "rapace",
  "rapace-browser-tests-proto",
@@ -1534,7 +1534,7 @@ dependencies = [
 
 [[package]]
 name = "rapace-cell"
-version = "0.4.0"
+version = "0.5.0"
 dependencies = [
  "facet",
  "libc",
@@ -1547,7 +1547,7 @@ dependencies = [
 
 [[package]]
 name = "rapace-core"
-version = "0.4.0"
+version = "0.5.0"
 dependencies = [
  "allocator-api2",
  "async-stream",
@@ -1601,7 +1601,7 @@ dependencies = [
 
 [[package]]
 name = "rapace-explorer"
-version = "0.4.0"
+version = "0.5.0"
 dependencies = [
  "facet",
  "rapace",
@@ -1609,7 +1609,7 @@ dependencies = [
 
 [[package]]
 name = "rapace-http"
-version = "0.4.0"
+version = "0.5.0"
 dependencies = [
  "facet",
  "rapace",
@@ -1653,7 +1653,7 @@ dependencies = [
 
 [[package]]
 name = "rapace-introspection"
-version = "0.4.0"
+version = "0.5.0"
 dependencies = [
  "async-trait",
  "rapace",
@@ -1663,7 +1663,7 @@ dependencies = [
 
 [[package]]
 name = "rapace-macros"
-version = "0.4.0"
+version = "0.5.0"
 dependencies = [
  "heck 0.4.1",
  "proc-macro-crate",
@@ -1675,7 +1675,7 @@ dependencies = [
 
 [[package]]
 name = "rapace-registry"
-version = "0.4.0"
+version = "0.5.0"
 dependencies = [
  "facet",
  "facet-core",
@@ -1704,7 +1704,7 @@ dependencies = [
 
 [[package]]
 name = "rapace-tracing"
-version = "0.4.0"
+version = "0.5.0"
 dependencies = [
  "facet",
  "parking_lot",
