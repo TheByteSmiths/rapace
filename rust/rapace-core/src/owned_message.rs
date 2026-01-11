@@ -111,9 +111,9 @@ impl<T: 'static + facet::Facet<'static>> OwnedMessage<T> {
         // Covariance means: if T<'long> works, T<'short> also works (lifetime can shrink).
         // This is required because we create a fake 'static slice that actually has
         // a shorter lifetime tied to the OwnedMessage.
-        let variance = (T::SHAPE.variance)(T::SHAPE);
+        let variance = T::SHAPE.variance;
         assert!(
-            variance.can_shrink(),
+            variance.base.can_shrink(),
             "OwnedMessage<T> requires T to be covariant (lifetime can shrink safely).\n\
              \n\
              Covariant types contain only shared/read-only borrows:\n\
